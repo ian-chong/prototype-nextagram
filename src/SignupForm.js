@@ -3,25 +3,25 @@ import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
 export default class SignupForm extends React.Component {
 
-  constructor () {
-    this.state = {
-      username:'',
-      email: '',
-      password: '',
+  // constructor () {
+  //   this.state = {
+  //     username:'',
+  //     email: '',
+  //     password: '',
 
-    }
-  }
+  //   }
+  // }
 
 
-  onClick = (event) => {
-    event.preventDefault()
-    this.setState({
-      username: event.target.username,
-      email: event.target.email,
-      password: event.target.password,
-    })
-    console.log (event.target.value)
-  }
+  // onClick = (event) => {
+  //   event.preventDefault()
+  //   this.setState({
+  //     username: event.target.username,
+  //     email: event.target.email,
+  //     password: event.target.password,
+  //   })
+  //   console.log (event.target.value)
+  // }
 
 
   render() {
